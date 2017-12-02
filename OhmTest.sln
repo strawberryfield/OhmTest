@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OhmTest", "OhmTest\OhmTest.csproj", "{142515BD-A704-4B04-8059-AB7647B19DC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "schematics", "schematics", "{F67C89CD-D01D-4ABB-9733-28EC1A46937F}"
+	ProjectSection(SolutionItems) = preProject
+		schematics\OhmTest.pdf = schematics\OhmTest.pdf
+		schematics\OhmTest.png = schematics\OhmTest.png
+		schematics\OhmTest.svg = schematics\OhmTest.svg
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arduino", "Arduino", "{34EE3B77-042B-4C19-8904-207F004E0A98}"
+	ProjectSection(SolutionItems) = preProject
+		arduino\ohm2\ohm2.ino = arduino\ohm2\ohm2.ino
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{142515BD-A704-4B04-8059-AB7647B19DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{142515BD-A704-4B04-8059-AB7647B19DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{142515BD-A704-4B04-8059-AB7647B19DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{142515BD-A704-4B04-8059-AB7647B19DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAC44EB4-ECCF-4AA2-AA6E-041F8BE3E840}
+	EndGlobalSection
+EndGlobal
